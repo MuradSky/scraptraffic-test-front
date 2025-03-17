@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>Результаты поиска</title>
+    <title>Корзина</title>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff" as="font" type="font/woff" crossorigin="anonymous"/>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
@@ -120,19 +120,191 @@
       <ul>
         <li> <a href="/">Scraptraffic </a></li>
         <li> <a href="/">Маркет</a></li>
-        <li>Результаты поиска</li>
+        <li>Корзина</li>
       </ul>
     </nav>
     <main class="l-main container">
-      <section class="b-empty"> 
-        <div class="b-empty-wrap"> 
-          <div class="m-head">
-            <h2 class="m-title">Мы не нашли то, что вы искали</h2>
-            <div class="m-head-text">
-              <p class="m-text">Возможно, в названии ошибка или у нас пока нет такого товара</p>
-            </div>
-          </div><a class="m-button btn_red" href="#" tabindex="0">Вернуться на главную</a>
+      <section class="b-shop l-mt-40"> 
+        <div class="head"> 
+          <h1 class="m-title">Корзина</h1>
+          <button class="m-button btn_light" tabindex="0">Очистить корзину
+          </button>
         </div>
+        <div class="m-shop-list"> 
+          <div class="heading"> 
+            <div class="item">Фото</div>
+            <div class="item">Наименование</div>
+            <div class="item">Наличие</div>
+            <div class="item">Стоимость </div>
+            <div class="item">Количество</div>
+            <div class="item">Сумма</div>
+          </div>
+          <div class="m-shop-card"> 
+            <div class="img"> 
+              <picture> <img src="./images/content/gallery/2.jpg" alt="" width="100" height="100" loading="lazy"/></picture>
+            </div>
+            <div class="name">
+              <p>Название товара в 2 строки название товара в 2 строки название товара в строки название товара в ...</p><span> 0.5 кг</span>
+            </div>
+            <div class="availability"> <span>В наличии   </span><span> 10.58 кг</span></div>
+            <div class="price"> <span>Стоимость/ед.</span><strong>175 000 USD</strong></div>
+            <div class="quantity">
+              <div class="m-counter" data-selector="counter">
+                <button data-action="counter.dec">
+                  <svg width="16" height="6">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                  </svg>
+                </button>
+                <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                <button data-action="counter.inc">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="sum"> <span>Сумма</span><strong>350 000 USD</strong></div>
+            <button class="clear"> 
+              <svg width="18" height="20">
+                <use xlink:href="./images/sprites/sprite.svg#trash" href="./images/sprites/sprite.svg#trash"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="m-shop-card"> 
+            <div class="img"> 
+              <picture> <img src="./images/content/gallery/2.jpg" alt="" width="100" height="100" loading="lazy"/></picture>
+            </div>
+            <div class="name">
+              <p>Название товара</p><span> 0.5 кг</span>
+            </div>
+            <div class="availability"> <span>В наличии </span><span>10.58 кг</span></div>
+            <div class="price"> <span>Стоимость/ед.</span><strong>По запросу</strong></div>
+            <div class="quantity">
+              <div class="m-counter" data-selector="counter">
+                <button data-action="counter.dec">
+                  <svg width="16" height="6">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                  </svg>
+                </button>
+                <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                <button data-action="counter.inc">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="sum"> <span>Сумма</span><strong>По запросу</strong></div>
+            <button class="clear"> 
+              <svg width="18" height="20">
+                <use xlink:href="./images/sprites/sprite.svg#trash" href="./images/sprites/sprite.svg#trash"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="m-shop-card"> 
+            <div class="img"> 
+              <picture> <img src="./images/content/gallery/2.jpg" alt="" width="100" height="100" loading="lazy"/></picture>
+            </div>
+            <div class="name">
+              <p>Название товара</p><span> 0.5 кг</span>
+            </div>
+            <div class="availability"> <span>В наличии </span><span>10.58 кг</span></div>
+            <div class="price"> <span>Стоимость/ед.</span><strong>По запросу</strong></div>
+            <div class="quantity">
+              <div class="m-counter" data-selector="counter">
+                <button data-action="counter.dec">
+                  <svg width="16" height="6">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                  </svg>
+                </button>
+                <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                <button data-action="counter.inc">
+                  <svg width="16" height="16">
+                    <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="sum"> <span>Сумма</span><strong>По запросу</strong></div>
+            <button class="clear"> 
+              <svg width="18" height="20">
+                <use xlink:href="./images/sprites/sprite.svg#trash" href="./images/sprites/sprite.svg#trash"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="b-order l-my-80">
+        <div class="m-head">
+          <h2 class="m-title">Оформление заказа</h2>
+        </div>
+        <form class="m-form" data-selector="">
+          <div class="m-form-title">Данные покупателя:</div>
+          <div class="m-form-flex m-form-flex_first">
+            <label class="m-form-label"><span class="m-form-text">Представьтесь</span>
+              <input class="m-input" type="text" name="name"/><span class="m-form-error">Поле обязательно для заполнения</span>
+            </label>
+            <label class="m-form-label"><span class="m-form-text">Телефон</span>
+              <input class="m-input" type="tel" name="phone"/><span class="m-form-error">Поле обязательно для заполнения</span>
+            </label>
+            <label class="m-form-label"><span class="m-form-text">Электронная почта</span>
+              <input class="m-input" type="email" name="email"/><span class="m-form-error">Поле обязательно для заполнения</span>
+            </label>
+            <label class="m-form-label"><span class="m-form-text">Комментарий</span>
+              <textarea class="m-textarea" name="message" data-selector="form.textarea"></textarea>
+            </label>
+          </div>
+          <div class="m-form-title">Способ получения:</div>
+          <div class="m-form-flex m-form-flex_second">
+            <label class="m-radio">
+              <input class="m-radio-input" type="radio" name="receiving" value="pickup"/><span class="m-radio-mark"></span><span class="m-radio-text">Самовывоз</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#box" href="./images/sprites/sprite.svg#box"></use>
+              </svg>
+            </label>
+            <label class="m-radio">
+              <input class="m-radio-input" type="radio" name="receiving" value="sdek"/><span class="m-radio-mark"></span><span class="m-radio-text">Доставка СДЭК</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#cdek" href="./images/sprites/sprite.svg#cdek"></use>
+              </svg>
+            </label>
+            <label class="m-radio">
+              <input class="m-radio-input" type="radio" name="receiving" value="another"/><span class="m-radio-mark"></span><span class="m-radio-text">Доставка другой ТК</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#delivery" href="./images/sprites/sprite.svg#delivery"></use>
+              </svg>
+            </label>
+          </div>
+          <div class="m-form-title">Способ оплаты:</div>
+          <div class="m-form-flex m-form-flex_third">
+            <label class="m-radio">
+              <input class="m-radio-input" type="radio" name="payment" value="1"/><span class="m-radio-mark"></span><span class="m-radio-text">Наличными</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#wallet" href="./images/sprites/sprite.svg#wallet"></use>
+              </svg>
+            </label>
+            <label class="m-radio">
+              <input class="m-radio-input" type="radio" name="payment" value="2"/><span class="m-radio-mark"></span><span class="m-radio-text">Оплата по счету</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#list" href="./images/sprites/sprite.svg#list"></use>
+              </svg>
+            </label>
+            <label class="m-radio"> 
+              <input class="m-radio-input" type="radio" name="payment" value="3"/><span class="m-radio-mark"></span><span class="m-radio-text">Оплата картой</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#card" href="./images/sprites/sprite.svg#card"></use>
+              </svg>
+            </label>
+            <label class="m-radio"> 
+              <input class="m-radio-input" type="radio" name="payment" value="4"/><span class="m-radio-mark"></span><span class="m-radio-text">Оплата криптовалютой</span>
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#crypto" href="./images/sprites/sprite.svg#crypto"></use>
+              </svg>
+            </label>
+          </div>
+          <button class="m-button btn_red" type="submit" tabindex="0">Отправить заказ
+          </button>
+        </form>
       </section>
     </main>
     <footer class="l-footer">
