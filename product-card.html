@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>Main Page</title>
+    <title>Main page</title>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff" as="font" type="font/woff" crossorigin="anonymous"/>
     <link rel="preload" href="./fonts/Commissioner/Commissioner-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
@@ -116,285 +116,184 @@
         </div>
       </div>
     </header>
+    <nav class="m-breadcrumbs container"> 
+      <ul>
+        <li> <a href="/">Scraptraffic </a></li>
+        <li> <a href="/">Маркет</a></li>
+        <li> <a href="/">Категория</a></li>
+        <li>Название товара</li>
+      </ul>
+    </nav>
     <main class="l-main container">
-      <section class="b-intro l-mt-20">
-        <div class="m-block-card">
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Поиск и доставка товаров для индустрии переработки вторичного сырья и утилизации отходов из Китая под заказ</h2>
-              <div class="m-head-text">
-                <p class="m-text">Scraptraffic Маркет предлагает поиск товаров в Китае для профессионального пользователя с поставкой на российский рынок и в страны СНГ под ключ. Технику, оборудование, любые сопутсвующие средства профессиональной деятельности, связанной с заготовкой и переработкой отходов и металлолома.</p>
+      <div class="b-product">
+        <div class="b-product-head">
+          <div class="m-gallery">
+            <div class="m-gallery-left"> 
+              <div class="swiper-button-prev">
+                <svg width="16" height="14">
+                  <use xlink:href="./images/sprites/sprite.svg#arrow-up" href="./images/sprites/sprite.svg#arrow-up"></use>
+                </svg>
+              </div>
+              <div class="m-gallery-thumbs swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <picture> <img src="./images/content/gallery/1.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                  <div class="swiper-slide" data-action="thumbs.video">
+                    <button class="play-video">
+                      <svg width="8" height="10">
+                        <use xlink:href="./images/sprites/sprite.svg#mini-play" href="./images/sprites/sprite.svg#mini-play"></use>
+                      </svg>
+                    </button>
+                    <picture><img src="./images/content/gallery/2.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture> <img src="./images/content/gallery/3.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture> <img src="./images/content/gallery/1.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture> <img src="./images/content/gallery/1.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                  <div class="swiper-slide">
+                    <picture> <img src="./images/content/gallery/1.jpg" alt="" width="70" height="70"/></picture>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="16" height="14">
+                  <use xlink:href="./images/sprites/sprite.svg#arrow-down" href="./images/sprites/sprite.svg#arrow-down"></use>
+                </svg>
               </div>
             </div>
-            <button class="m-button btn_dark" tabindex="0">Оформить заявку
-            </button>
-          </div>
-          <div class="right">
-            <div class="img">
-              <picture>
-                <source media="(max-width: 690px)" srcset="./images/content/intro/intro-img-mob.png"/><img src="./images/content/intro/intro-img.png" alt="" width="789" height="424"/>
-              </picture>
-            </div>
-            <div class="m-info-card"><img src="./images/content/intro/intro-icon.png" alt="" width="60" height="60"/>
-              <p>
-                 Как специалисты в области заготовки и переработки вторичного сырья и утилизации отходов, 
-                с широкими компетенциями в технологических, торговых, производственных и логистических вопросах
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="b-products-type l-my-80">
-        <div class="m-head">
-          <h2 class="m-title">Типы продукции</h2>
-          <div class="m-head-text">
-            <p class="m-text">Номенклатурная сетка товаров по которым мы работаем</p>
-          </div>
-        </div>
-        <div class="m-carousel swiper" data-items="default">
-          <div class="swiper-wrapper">
-            <div class="m-type-card swiper-slide">
-              <div class="title">Спецодежда и профессиональное снаряжение</div>
-              <div class="text">Комбинезоны, маски, одежда со специальными характеристиками, противоударная, химическая, температурная, с подогревом, влагоотталкивающая, водонепроницаемая</div>
-              <div class="img"><img src="./images/content/products-type/1.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Электроника</div>
-              <div class="text">Системы видеонаблюдения, датчики света, шума, средства безопасности , антиударные часы, компьютеры</div>
-              <div class="img"><img src="./images/content/products-type/2.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Сырьевые товары</div>
-              <div class="text">Химическая продукция, кислоты, сульфаты, краски , специальная химическая посуда</div>
-              <div class="img"><img src="./images/content/products-type/3.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Техника</div>
-              <div class="text">Краны, перегружатели металлолома, самосвалы , резина, покрышки для крупного спецтранспорта, запчасти</div>
-              <div class="img"><img src="./images/content/products-type/4.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Оборудование для утилизации и переработки</div>
-              <div class="text">Шредеры, грохота, прессы, печи, станки для вакуумной упаковки, аффинажный комплекс, переработка электронного лома</div>
-              <div class="img"><img src="./images/content/products-type/5.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Средства развлечения и не только</div>
-              <div class="text">Пассажирские пилотируемые дроны, снегоходы, квадроциклы, автомобили, вездеходы</div>
-              <div class="img"><img src="./images/content/products-type/6.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Металлопродукция, прокат</div>
-              <div class="img"><img src="./images/content/products-type/7.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Полимерная продукция</div>
-              <div class="img"><img src="./images/content/products-type/8.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Квантовые компьютеры </div><i class="badge">новинка</i>
-              <div class="img"><img src="./images/content/products-type/9.png" alt="" width="180" height="180"/></div>
-            </div>
-            <div class="m-type-card swiper-slide">
-              <div class="title">Прочее под заказ</div>
-              <div class="img"><img src="./images/content/products-type/10.png" alt="" width="180" height="180"/></div>
+            <div class="m-gallery-main swiper"> 
+              <div class="swiper-wrapper"> <a class="swiper-slide" href="./images/content/gallery/1-lg.jpg" data-fancybox="gallery">
+                  <picture> <img src="./images/content/gallery/1-lg.jpg" alt="" width="360" height="360"/></picture></a><a class="swiper-slide" href="https://youtube.com/shorts/gJqqB3oQG0Q?si=vh-SUDmrwxUSb73T" data-fancybox="gallery">
+                  <button class="play-video">
+                    <svg width="8" height="10">
+                      <use xlink:href="./images/sprites/sprite.svg#mini-play" href="./images/sprites/sprite.svg#mini-play"></use>
+                    </svg>
+                  </button>
+                  <picture> <img src="./images/content/gallery/2-lg.jpg" alt="" width="360" height="360"/></picture></a><a class="swiper-slide" href="./images/content/gallery/3-lg.jpg" data-fancybox="gallery">
+                  <picture> <img src="./images/content/gallery/3-lg.jpg" alt="" width="360" height="360"/></picture></a><a class="swiper-slide" href="./images/content/gallery/1-lg.jpg" data-fancybox="gallery">
+                  <picture> <img src="./images/content/gallery/1-lg.jpg" alt="" width="360" height="360"/></picture></a><a class="swiper-slide" href="./images/content/gallery/1-lg.jpg" data-fancybox="gallery">
+                  <picture> <img src="./images/content/gallery/1-lg.jpg" alt="" width="360" height="360"/></picture></a><a class="swiper-slide" href="./images/content/gallery/1-lg.jpg" data-fancybox="gallery">
+                  <picture> <img src="./images/content/gallery/1-lg.jpg" alt="" width="360" height="360"/></picture></a></div>
             </div>
           </div>
-          <div class="m-carousel-nav">
-            <div class="swiper-button-next">
-              <svg width="24" height="24">
-                <use xlink:href="./images/sprites/sprite.svg#arrow" href="./images/sprites/sprite.svg#arrow"></use>
-              </svg>
-            </div>
-            <div class="swiper-button-prev">
-              <svg width="24" height="24">
-                <use xlink:href="./images/sprites/sprite.svg#arrow" href="./images/sprites/sprite.svg#arrow"></use>
-              </svg>
-            </div>
-            <div class="swiper-scrollbar"></div>
-          </div>
-        </div>
-      </section>
-      <section class="b-services l-my-80">
-        <div class="m-head">
-          <h2 class="m-title">Наши услуги</h2>
-          <div class="m-head-text">
-            <p class="m-text">Сервис по поиску и доставке товаров из Китая раздел отраслевого маркетплейса Scraptraffic. Все для перерабатывающей отрасли и смежные близкие товары для профессионалов, семьи, для наших близких и родных.</p>
-          </div>
-        </div>
-        <div class="wrap"> 
-          <div class="list"><a class="m-link-card" href="#"><strong>Поиск продукции</strong><span>Поиск и проверка поставщиков в Китае под заказчика</span><i>
+          <div class="m-card-detail" data-selector="card.detail">
+            <div class="heading"> <a class="heading-link" href="/"><span>ИП / ООО Название компании</span>
                 <svg width="10" height="10">
-                  <use xlink:href="./images/sprites/sprite.svg#arrow-up-right" href="./images/sprites/sprite.svg#arrow-up-right"></use>
-                </svg></i></a><a class="m-link-card" href="#"><strong>Выкуп и доставка продукции</strong><span>Организация сбора грузов и доставка до двери покупателя</span><i>
-                <svg width="10" height="10">
-                  <use xlink:href="./images/sprites/sprite.svg#arrow-up-right" href="./images/sprites/sprite.svg#arrow-up-right"></use>
-                </svg></i></a><a class="m-link-card" href="#"><strong>Оплата и трансфер средств в Китай и другие страны</strong><span>Услуги платежного агента</span><i>
-                <svg width="10" height="10">
-                  <use xlink:href="./images/sprites/sprite.svg#arrow-up-right" href="./images/sprites/sprite.svg#arrow-up-right"></use>
-                </svg></i></a><a class="m-link-card" href="#"><strong>Брендирование товаров</strong><span>Организация производства под вашим брендом</span><i>
-                <svg width="10" height="10">
-                  <use xlink:href="./images/sprites/sprite.svg#arrow-up-right" href="./images/sprites/sprite.svg#arrow-up-right"></use>
-                </svg></i></a>
-          </div>
-          <div class="img">
-            <div class="m-image-card">
-              <picture>
-                <source media="(max-width: 690px)" srcset="./images/content/services/services-img-mob.png"/><img src="./images/content/services/services-img.png" width="408" height="418" loading="lazy"/>
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="b-search l-my-80">
-        <div class="m-block-card">  
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Поиск поставщиков в Китае и выкуп продукции с доставкой «под ключ»</h2>
-              <div class="m-head-text">
-                <p class="m-text">Scraptraffic Маркет предоставляет комплексные услуги по поиску и подбору надёжных производителей товаров для индустрии переработки вторичного сырья и утилизации отходов и в сопутствующих сферах.</p>
-                <p class="m-text">Перед совершением сделки мы проверяем продавца в онлайн формате и выезжаем на отгрузку.</p>
+                  <use xlink:href="./images/sprites/sprite.svg#arrow-down-1" href="./images/sprites/sprite.svg#arrow-down-1"></use>
+                </svg></a>
+              <div class="widgets"> 
+                <div class="percnet" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">-15%</div>
+                <div class="promo" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">Акция 1+1</div>
+                <div class="val" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">от 0.5 кг</div>
+                <button class="video" data-action="card.detail.video" data-href="https://youtube.com/shorts/gJqqB3oQG0Q?si=vh-SUDmrwxUSb73T">
+                  <svg width="7" height="8">
+                    <use xlink:href="./images/sprites/sprite.svg#mini-play" href="./images/sprites/sprite.svg#mini-play"></use>
+                  </svg><span>Видеообзор</span>
+                </button>
               </div>
             </div>
-            <button class="m-button btn_red" tabindex="0">Сформировать запрос
-            </button>
-          </div>
-          <div class="right">
-            <div class="m-image-card">
-              <picture>
-                <source media="(max-width: 690px)" srcset="./images/content/search/search-img-mob.png"/><img src="./images/content/search/search-img.png" width="568" height="353" loading="lazy"/>
-              </picture>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="b-payment l-my-80">
-        <div class="m-block-card">  
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Оплата. Перевод денег в Китай и другие страны</h2>
-              <div class="m-head-text">
-                <p class="m-text">Scraptraffic Маркет является платёжным агентом и предлагает безопасные и быстрые переводы денежных средств в Китай и другие страны.</p>
-                <p class="m-text">Перед совершением сделки мы проверяем продавца в онлайн формате и выезжаем на отгрузку.</p>
-                <p class="m-text">Предлагаем возможность оплаты товаров в любом удобном для вас формате. Наши услуги включают не только закупку, но и доставку продукции до вашего города, а также полное сопровождение сертификации и таможенной очистки.</p>
+            <h1 class="name">
+               Шлифовальный станок Германия Heckert 13x2,9м портальная направляющая мельница SZ 25-25-13/30.1-10.1</h1>
+            <div class="information"> 
+              <div class="art">
+                 арт. 001002003</div>
+              <div class="status is_availability">В наличии 10.58 кг</div>
+              <div class="delivery-time">
+                <svg width="20" height="20">
+                  <use xlink:href="./images/sprites/sprite.svg#icon-truck" href="./images/sprites/sprite.svg#icon-truck"></use>
+                </svg><span>3-7 дней,</span> склад в России
               </div>
             </div>
-            <button class="m-button btn_red" tabindex="0">Сформировать запрос
-            </button>
-          </div>
-          <div class="right">
-            <ul class="m-list">
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Безопасный трансфер средств, гарантировано и конфиденциально</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Консультации и поддержка по финансовым обязательствам клиента на всех этапах сделок с Китаем</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Консультирование по вопросам оптимизации налоговых расходов</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Юридическая поддержка в оформлении документов</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Стоимость услуг от 1,5%</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Сроки перевода 2–4 рабочих дня</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Оплата по счёту / наличными / криптовалютой</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Доставка в РФ</span></li>
-              <li><i>
-                  <svg width="20" height="20">
-                    <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                  </svg></i><span>Таможенная очистка</span></li>
-            </ul>
-          </div>
-          <button class="m-button btn_red" tabindex="0">Сформировать запрос
-          </button>
-        </div>
-      </section>
-      <section class="b-delivery l-my-80">
-        <div class="m-block-card"> 
-          <div class="img">
-            <picture> 
-              <source media="(max-width: 990px)" srcset="./images/content/delivery/airplane-mob.png"/><img src="./images/content/delivery/airplane.png" loading="lazy" alt="" width="511" height="457"/>
-            </picture>
-          </div>
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Доставка сборных и моно грузов</h2>
-              <div class="m-head-text">
-                <p class="m-text">Scraptraffic Маркет осуществляет доставку и таможенную очистку как моно грузов в контейнере так и сборных грузов весом от 5 кг.</p>
+            <div class="attributes">
+              <div class="attribute" data-select="card.detail.attribute">
+                <div class="label">Объем:</div>
+                <div class="list"> 
+                  <button class="is_active">0.5 кг</button>
+                  <button>1 кг</button>
+                  <button>1.5 кг</button>
+                </div>
+              </div>
+              <div class="attribute" data-select="card.detail.attribute">
+                <div class="label">Чистота:</div>
+                <div class="list">
+                  <button class="is_active">с хранения</button>
+                </div>
               </div>
             </div>
-            <button class="m-button btn_red" tabindex="0">Сформировать запрос
-            </button>
-          </div>
-          <div class="right">
-            <div class="m-fact-card"><i>
-                <svg width="20" height="20">
-                  <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                </svg></i><span>Полный пакет документов / Номер таможенной декларации / Сертификаты / УПД</span></div>
-            <div class="m-fact-card"><i>
-                <svg width="20" height="20">
-                  <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                </svg></i><span>Срок доставки — до 3-х недель</span></div>
-            <div class="m-fact-card"><i>
-                <svg width="20" height="20">
-                  <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                </svg></i><span>Прямая доставка до Москвы</span></div>
-            <div class="m-fact-card"><i>
-                <svg width="20" height="20">
-                  <use xlink:href="./images/sprites/sprite.svg#check" href="./images/sprites/sprite.svg#check"></use>
-                </svg></i><span>Доставка груза до двери по России и СНГ</span></div>
-          </div>
-          <button class="m-button btn_red" tabindex="0">Сформировать запрос
-          </button>
-        </div>
-      </section>
-      <section class="b-branding l-my-80">
-        <div class="m-block-card"> 
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Брендирование продукции и контрактное производство в Китае</h2>
-              <div class="m-head-text">
-                <p class="m-text">Мы поможем вам организовать производство любой продукции под вашим брендом на китайских фабриках</p>
+            <div class="actions">
+              <div class="price"> 
+                <div class="price-top">175 000 USD<span>175 000 USD</span></div>
+                <div class="price-bottom">15 154 924 ₽ по курсу ЦБ</div>
+              </div>
+              <div class="to-cart"> 
+                <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                  <svg width="24" height="24">
+                    <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                  </svg>В корзину
+                </button>
               </div>
             </div>
-            <button class="m-button btn_red" tabindex="0">Сформировать запрос
-            </button>
-          </div>
-          <div class="right">
-            <div class="m-image-card">
-              <picture>
-                <source media="(max-width: 690px)" srcset="./images/content/branding/branding-img.jpg"/><img src="./images/content/branding/branding-img.jpg" loading="lazy"/>
-              </picture>
-            </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="m-product-details l-my-80" data-selector="product.details">
+        <div class="tabs"> 
+          <button class="is_active" data-tab="table">Характеристики</button>
+          <button data-tab="description">Описание</button>
+        </div>
+        <table class="table is_show" data-content="table">
+          <tr> 
+            <td>Длина волны лазера</td>
+            <td>1070 нм</td>
+          </tr>
+          <tr> 
+            <td>Максимальная выходная мощность лазера</td>
+            <td>1500 Вт</td>
+          </tr>
+          <tr> 
+            <td>Количество выходных волокон</td>
+            <td>Одно волокно</td>
+          </tr>
+          <tr> 
+            <td>Lorem ipsum dolor sit amet consectetur. Ullamcorper leo morbi.</td>
+            <td>Lorem ipsum dolor sit amet consectetur. </td>
+          </tr>
+          <tr> 
+            <td>Lorem ipsum dolor sit amet consectetur.</td>
+            <td>Lorem ipsum dolor sit amet consectetur. Ullamcorper leo morbi eu urna nulla ac pretium pulvinar.</td>
+          </tr>
+        </table>
+        <div class="description" data-content="description">
+          <p>
+            Лазерный очиститель мощностью 1500W — это современное устройство для удаления коррозии, ржавчины, краски и загрязнений 
+            с металлических поверхностей. Сочетая высокую мощность и передовые технологии, он обеспечивает бережную обработку без повреждения 
+            основного материала. Подходит для промышленного применения, реставрации и ремонта.
+          </p>
+          <h3>Основные характеристики:</h3>
+          <ul> 
+            <li>Высокая мощность для работы с любыми металлическими поверхностями;</li>
+            <li>Точная настройка параметров для деликатной обработки;</li>
+            <li>Низкий уровень шума, подходит для длительной работы (8–10 часов);</li>
+            <li>Экономичное энергопотребление: 220 В/50 Гц.</li>
+          </ul>
+          <p>
+             Лазерный очиститель металлов 1500W — это передовое решение для профессиональной очистки, обеспечивающее 
+            качество, безопасность и эффективность. Приобретите его уже сегодня и улучшите свои производственные процессы!
+          </p><a href="/">Показать все описание</a>
+        </div>
+      </div>
       <section class="b-products-catalog l-my-80"> 
         <div class="head">
           <div class="m-head">
-            <h2 class="m-title">Товары из каталога Scraptraffic Market</h2>
-            <div class="m-head-text">
-              <p class="m-text">Тут представлены некоторые товары на нашей витрине</p>
-            </div>
+            <h2 class="m-title">Другие товары продавца</h2>
           </div>
-          <button class="m-button btn_dark" tabindex="0">Перейти в маркетс
+          <button class="m-button btn_dark" tabindex="0">Смотреть все
           </button>
         </div>
         <div class="m-carousel swiper" data-items="default">
@@ -797,41 +696,407 @@
           </div>
         </div>
       </section>
-      <section class="b-contact l-my-80"> 
-        <div class="m-block-card">
-          <div class="left">
-            <div class="m-head">
-              <h2 class="m-title">Связь с менеджером</h2>
-              <div class="m-head-text">
-                <p class="m-text">Заполните форму и наш менеджер свяжется с вами в ближайшее время</p>
+      <section class="b-products-catalog l-my-80">
+        <div class="m-head">
+          <h2 class="m-title">Похожие товары</h2>
+        </div>
+        <div class="m-carousel swiper" data-items="default">
+          <div class="swiper-wrapper">
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img">
+                <div class="widgets">
+                  <div class="col">
+                    <div class="percnet" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">-15%</div>
+                    <div class="promo" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">Акция 1+1</div>
+                    <div class="val" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">от 0.5 кг</div>
+                  </div>
+                  <div class="col">
+                    <button class="video" data-aciton="product.card.video" data-href="https://youtube.com/shorts/gJqqB3oQG0Q?si=vh-SUDmrwxUSb73T">
+                      <svg width="7" height="8">
+                        <use xlink:href="./images/sprites/sprite.svg#mini-play" href="./images/sprites/sprite.svg#mini-play"></use>
+                      </svg><span>Видеообзор</span>
+                    </button>
+                  </div>
+                </div><img src="./images/content/products-catalog/1.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span> 10.58 кг</div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong class="is_red">175 000 USD</strong><span>175 000 USD</span>
+                </div>
+                <div class="select"> 
+                  <select class="m-select" data-selector="select.field">
+                    <option value="0.5 кг">0.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                    <option value="1.5 кг">1.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                  </select>
+                </div>
+                <div class="hidden-content">
+                  <div class="volumes"><strong>Объем:</strong>
+                    <ul class="list">
+                      <li>
+                        <button class="is_active" data-action="check.button" data-value="0.5 кг">0.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1.5 кг">1.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li class="is_more"> <a href="/">+2</a></li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <form class="m-form" data-selector="form">
-              <div class="m-form-flex">
-                <label class="m-form-label"><span class="m-form-text">Представьтесь</span>
-                  <input class="m-input" type="text" name="name"/><span class="m-form-error">Поле обязательно для заполнения</span>
-                </label>
-                <label class="m-form-label"><span class="m-form-text">Телефон</span>
-                  <input class="m-input" type="tel" name="phone"/><span class="m-form-error">Поле обязательно для заполнения</span>
-                </label>
-                <label class="m-form-label"><span class="m-form-text">Email</span>
-                  <input class="m-input" type="email" name="email"/><span class="m-form-error">Поле обязательно для заполнения</span>
-                </label>
-                <label class="m-form-label"><span class="m-form-text">Сообщение</span>
-                  <textarea class="m-textarea" name="message" data-selector="form.textarea"></textarea>
-                </label>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img">
+                <div class="widgets">
+                  <div class="col">
+                    <div class="percnet" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">-15%</div>
+                  </div>
+                  <div class="col">
+                  </div>
+                </div><img src="./images/content/products-catalog/2.jpg" alt="" width="238" height="238" loading="lazy"/>
               </div>
-              <button class="m-button btn_red" type="submit" tabindex="0">Отправить заявку
-              </button>
-            </form>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span></div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong class="is_red">175 000 USD</strong><span>175 000 USD</span>
+                </div>
+                <div class="select"> 
+                  <select class="m-select" data-selector="select.field">
+                    <option value="0.5 кг">0.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                    <option value="1.5 кг">1.5 кг</option>
+                  </select>
+                </div>
+                <div class="hidden-content">
+                  <div class="volumes"><strong>Объем:</strong>
+                    <ul class="list">
+                      <li>
+                        <button class="is_active" data-action="check.button" data-value="0.5 кг">0.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1.5 кг">1.5 кг</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img"><img src="./images/content/products-catalog/3.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span></div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong>Стоимость по запросу</strong>
+                </div>
+                <div class="hidden-content">
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img"><img src="./images/content/products-catalog/4.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="stock">Нет в наличии</div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="hidden-content">
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="get.manage">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#message" href="./images/sprites/sprite.svg#message"></use>
+                      </svg>Связаться с менеджером
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img">
+                <div class="widgets">
+                  <div class="col">
+                    <div class="percnet" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">-15%</div>
+                    <div class="promo" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">Акция 1+1</div>
+                    <div class="val" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">от 0.5 кг</div>
+                  </div>
+                  <div class="col">
+                    <button class="video" data-aciton="product.card.video" data-href="https://youtube.com/shorts/gJqqB3oQG0Q?si=vh-SUDmrwxUSb73T">
+                      <svg width="7" height="8">
+                        <use xlink:href="./images/sprites/sprite.svg#mini-play" href="./images/sprites/sprite.svg#mini-play"></use>
+                      </svg><span>Видеообзор</span>
+                    </button>
+                  </div>
+                </div><img src="./images/content/products-catalog/1.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span> 10.58 кг</div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong class="is_red">175 000 USD</strong><span>175 000 USD</span>
+                </div>
+                <div class="select"> 
+                  <select class="m-select" data-selector="select.field">
+                    <option value="0.5 кг">0.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                    <option value="1.5 кг">1.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                  </select>
+                </div>
+                <div class="hidden-content">
+                  <div class="volumes"><strong>Объем:</strong>
+                    <ul class="list">
+                      <li>
+                        <button class="is_active" data-action="check.button" data-value="0.5 кг">0.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1.5 кг">1.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li class="is_more"> <a href="/">+2</a></li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img">
+                <div class="widgets">
+                  <div class="col">
+                    <div class="percnet" data-tooltip="Lorem ipsum dolor sit amet consectetur. Massa condimentum iaculis aliquam ornare lobortis proin vitae sapien.. Suscipit amet commodo vitae vitae et..">-15%</div>
+                  </div>
+                  <div class="col">
+                  </div>
+                </div><img src="./images/content/products-catalog/2.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span></div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong class="is_red">175 000 USD</strong><span>175 000 USD</span>
+                </div>
+                <div class="select"> 
+                  <select class="m-select" data-selector="select.field">
+                    <option value="0.5 кг">0.5 кг</option>
+                    <option value="1 кг">1 кг</option>
+                    <option value="1.5 кг">1.5 кг</option>
+                  </select>
+                </div>
+                <div class="hidden-content">
+                  <div class="volumes"><strong>Объем:</strong>
+                    <ul class="list">
+                      <li>
+                        <button class="is_active" data-action="check.button" data-value="0.5 кг">0.5 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1 кг">1 кг</button>
+                      </li>
+                      <li>
+                        <button data-action="check.button" data-value="1.5 кг">1.5 кг</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img"><img src="./images/content/products-catalog/3.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="artikul">арт. 001002003</div>
+                  <div class="stock is_green"><span>В наличии</span></div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="price"><strong>Стоимость по запросу</strong>
+                </div>
+                <div class="hidden-content">
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="add.button">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#basket" href="./images/sprites/sprite.svg#basket"></use>
+                      </svg>В корзину
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-product-card swiper-slide" data-selector="product.card">
+              <div class="img"><img src="./images/content/products-catalog/4.jpg" alt="" width="238" height="238" loading="lazy"/>
+              </div>
+              <div class="content"><a class="top" href="#">
+                  <div class="stock">Нет в наличии</div></a><a class="desc" href="#">Название товара в 2 строки название товара в 2 строки название товара в строки название товара в 2</a>
+                <div class="hidden-content">
+                  <div class="button">
+                    <button class="m-button btn_red" tabindex="0" data-action="get.manage">
+                      <svg width="24" height="24">
+                        <use xlink:href="./images/sprites/sprite.svg#message" href="./images/sprites/sprite.svg#message"></use>
+                      </svg>Связаться с менеджером
+                    </button>
+                    <div class="m-counter is_hidden" data-selector="counter">
+                      <button data-action="counter.dec">
+                        <svg width="16" height="6">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-minus" href="./images/sprites/sprite.svg#icon-minus"></use>
+                        </svg>
+                      </button>
+                      <input type="number" value="1" min="1" max="10" data-action="counter.input"/>
+                      <button data-action="counter.inc">
+                        <svg width="16" height="16">
+                          <use xlink:href="./images/sprites/sprite.svg#icon-plus" href="./images/sprites/sprite.svg#icon-plus"></use>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="right">
-            <div class="m-contacts-card">
-              <div class="item"><span>Телефон / <span>WhatsApp:</span></span><a href="tel:+79817407923" target="_blank">+7 981 740 79 23</a></div>
-              <div class="item"><span>Телефон в Китае:</span><a href="tel:+85266431038" target="_blank">+852 6643 1038</a></div>
-              <div class="item"><span>Telegram:</span><a href="https://t.me/operator_scraptraffic" target="_blank">t.me/operator_scraptraffic</a></div>
-              <div class="item"><span>Email:</span><a href="mailto:client@scraptraffic.com" target="_blank">client@scraptraffic.com</a></div>
+          <div class="m-carousel-nav">
+            <div class="swiper-button-next">
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#arrow" href="./images/sprites/sprite.svg#arrow"></use>
+              </svg>
             </div>
+            <div class="swiper-button-prev">
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#arrow" href="./images/sprites/sprite.svg#arrow"></use>
+              </svg>
+            </div>
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </section>

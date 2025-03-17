@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Main page</title>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Regular.woff" as="font" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Medium.woff" as="font" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-SemiBold.woff" as="font" type="font/woff" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+    <link rel="preload" href="./fonts/Commissioner/Commissioner-Bold.woff" as="font" type="font/woff" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
+  </head>
+  <body>
+    <header class="l-header" data-selector="header"> 
+      <div class="container">
+        <div class="wrap"><a class="logo" href="/"><img src="./images/content/logomarket.png" alt="" width="182" height="58" loading="lazy"/></a>
+          <div class="call">
+            <nav class="nav" data-selector="nav">
+              <button class="m-button btn_dark" tabindex="0" data-action="show.nav">Каталог
+              </button>
+              <div class="content" data-selector="nav.content"> 
+                <div class="m-nav-list">
+                  <ul>
+                    <li> <a href="#">Сырьевые товары</a></li>
+                    <li> <a href="#">Станки для обработки металлов</a></li>
+                    <li> <a href="#">Шумомеры профессиональные</a></li>
+                    <li> <a href="#">Анализаторы металлов <br> (спектрометры)</a></li>
+                    <li> <a href="#">Дозиметры радиации</a></li>
+                    <li> <a href="#">Лазерный инструмент для очистки металлов от коррозии</a></li>
+                    <li> <a href="#">Газовые баллоны</a></li>
+                    <li> <a href="#">Недвижимость</a></li>
+                  </ul>
+                  <ul> 
+                    <li><a href="#">Техника</a></li>
+                    <li> <a href="#">Конструкции</a></li>
+                    <li> <a href="#">Готовый бизнес</a></li>
+                    <li> <a href="#">Системы ночного видения</a></li>
+                    <li> <a href="#">Химические вещества</a></li>
+                    <li> <a href="#">Всё для аффинажа</a></li>
+                    <li> <a href="#">Благородные газы</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <form class="form">
+              <div class="m-input-search" data-selector="search.container">
+                <input class="input" type="search" placeholder="Поиск по товарам и категориям" data-selector="search.input"/>
+                <button class="button" type="button" data-selector="search.button"> <span class="search-icon"> 
+                    <svg width="24" height="24">
+                      <use xlink:href="./images/sprites/sprite.svg#search" href="./images/sprites/sprite.svg#search"></use>
+                    </svg></span><span class="close-icon">
+                    <svg width="18" height="18">
+                      <use xlink:href="./images/sprites/sprite.svg#close" href="./images/sprites/sprite.svg#close"></use>
+                    </svg></span></button>
+              </div>
+            </form><a class="m-button btn_light" href="#" tabindex="0">
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#user" href="./images/sprites/sprite.svg#user"></use>
+              </svg>Личный кабинет</a><a class="m-button btn_light" href="#" tabindex="0">
+              <svg width="24" height="24">
+                <use xlink:href="./images/sprites/sprite.svg#cart" href="./images/sprites/sprite.svg#cart"></use>
+              </svg>Корзина</a>
+          </div><a class="cart" href="#">
+            <svg width="24" height="24">
+              <use xlink:href="./images/sprites/sprite.svg#cart" href="./images/sprites/sprite.svg#cart"></use>
+            </svg></a>
+          <button class="burger" data-selector="header.burger"><span class="icon icon_menu">
+              <svg width="18" height="14">
+                <use xlink:href="./images/sprites/sprite.svg#burger" href="./images/sprites/sprite.svg#burger"></use>
+              </svg></span><span class="icon icon_close">
+              <svg width="14" height="14">
+                <use xlink:href="./images/sprites/sprite.svg#close" href="./images/sprites/sprite.svg#close"></use>
+              </svg></span></button>
+        </div>
+      </div>
+      <div class="menu" data-selector="header.menu"> <a class="m-button btn_light" href="#" tabindex="0">
+          <svg width="24" height="24">
+            <use xlink:href="./images/sprites/sprite.svg#user" href="./images/sprites/sprite.svg#user"></use>
+          </svg>Личный кабинет</a>
+        <form class="form">
+          <div class="m-input-search" data-selector="search.container">
+            <input class="input" type="search" placeholder="Поиск по товарам и категориям" data-selector="search.input"/>
+            <button class="button" type="button" data-selector="search.button"> <span class="search-icon"> 
+                <svg width="24" height="24">
+                  <use xlink:href="./images/sprites/sprite.svg#search" href="./images/sprites/sprite.svg#search"></use>
+                </svg></span><span class="close-icon">
+                <svg width="18" height="18">
+                  <use xlink:href="./images/sprites/sprite.svg#close" href="./images/sprites/sprite.svg#close"></use>
+                </svg></span></button>
+          </div>
+        </form>
+        <div class="m-nav-list">
+          <ul>
+            <li> <a href="#">Сырьевые товары</a></li>
+            <li> <a href="#">Станки для обработки металлов</a></li>
+            <li> <a href="#">Шумомеры профессиональные</a></li>
+            <li> <a href="#">Анализаторы металлов <br> (спектрометры)</a></li>
+            <li> <a href="#">Дозиметры радиации</a></li>
+            <li> <a href="#">Лазерный инструмент для очистки металлов от коррозии</a></li>
+            <li> <a href="#">Газовые баллоны</a></li>
+            <li> <a href="#">Недвижимость</a></li>
+          </ul>
+          <ul> 
+            <li><a href="#">Техника</a></li>
+            <li> <a href="#">Конструкции</a></li>
+            <li> <a href="#">Готовый бизнес</a></li>
+            <li> <a href="#">Системы ночного видения</a></li>
+            <li> <a href="#">Химические вещества</a></li>
+            <li> <a href="#">Всё для аффинажа</a></li>
+            <li> <a href="#">Благородные газы</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <nav class="m-breadcrumbs container"> 
+      <ul>
+        <li> <a href="/">Scraptraffic </a></li>
+        <li> <a href="/">Маркет</a></li>
+        <li>Результаты поиска</li>
+      </ul>
+    </nav>
+    <main class="l-main container">
+      <section class="b-empty"> 
+        <div class="b-empty-wrap"> 
+          <div class="m-head">
+            <h2 class="m-title">Мы не нашли то, что вы искали</h2>
+            <div class="m-head-text">
+              <p class="m-text">Возможно, в названии ошибка или у нас пока нет такого товара</p>
+            </div>
+          </div><a class="m-button btn_red" href="#" tabindex="0">Вернуться на главную</a>
+        </div>
+      </section>
+    </main>
+    <footer class="l-footer">
+      <div class="container">
+        <div class="wrap">
+          <div class="top"><a class="logo" href="/"><img src="./images/content/logomarket.png" alt="" width="182" height="58" loading="lazy"/></a>
+            <ul class="menu">
+              <li><a href="#">О сервисе</a></li>
+              <li><a href="#">Конфиденциальность</a></li>
+              <li><a href="#">Соглашение</a></li>
+              <li><a href="#">Техподдержка</a></li>
+              <li><a href="#">Оферта</a></li>
+            </ul>
+          </div>
+          <div class="policy">
+            <p>
+               ООО «Протон Чамберс Линкс» ОГРН 1127847638973 © 2016-2025 Все права защищены. 
+              Копирование с сайта разрешается только с открытым указанием источника 
+              (ссылка на <a href="https://scraptraffic.com/" target="_blank"  rel='noopener noreferrer'>scraptraffic.com</a>)
+            </p><a href="/" target="_blank" rel="noopener noreferrer">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <link rel="stylesheet" href="./libs/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./libs/slim-select/slim-select.min.css"/>
+    <link rel="stylesheet" href="./libs/fancybox/fancybox.css"/>
+    <script src="./js/base.min.js"></script>
+    <script src="./js/critical.min.js"></script>
+    <script src="./libs/swiper-bundle.min.js"></script>
+    <script src="./libs/slim-select/slim-select.min.js"></script>
+    <script src="./libs/fancybox/fancybox.umd.js"></script>
+    <script src="./js/main.min.js" defer="defer"></script>
+    <div class="m-modal" id="madal-contact-manager">
+      <div class="box"> 
+        <div class="title">Связаться с менеджером</div>
+        <div class="text">Оставьте свои контактные данные, мы свяжемся с вами в ближайшее время</div>
+        <form class="m-form" data-selector="form">
+          <label class="m-form-label"><span class="m-form-text">Представьтесь</span>
+            <input class="m-input" type="text" name="name"/><span class="m-form-error">Поле обязательно для заполнения</span>
+          </label>
+          <label class="m-form-label"><span class="m-form-text">Телефон</span>
+            <input class="m-input" type="tel" name="phone"/><span class="m-form-error">Поле обязательно для заполнения</span>
+          </label>
+          <button class="m-button btn_red" type="submit" tabindex="0">Отправить заявку
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
